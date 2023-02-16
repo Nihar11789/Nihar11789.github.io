@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio.io</title>
 </head>
+
 <body>
-    <p>my portfolio</p>
+    <div id="header">
+        <div class="container">
+            <nav id="nav-menu">
+                <img id="logo" src="./images/Nihar.png" alt="nihar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Content</a></li>
+                    <li><a href="#">Resume</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Node-backend Developer</p>
+                <h2>Hi, I'm <br> <span>Nihar Ranjan Patra</span></h2>
+            </div>
+        </div>
+    </div>
+   <!-- ---------------about------------------------------------------------  -->
+    <div id="about">
+        <div class="about secion">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/PHOTO.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure mollitia maxime! Fugit distinctio quae sit quod magnam, doloremque, excepturi voluptatum laborum eaque doloribus nobis voluptates libero rem! Ullam, odit.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+                            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"><br>
+                            <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7">
+                            <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
+                            <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"><br>
+                            <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white">
+                            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+                            <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+                            <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"><br>
+                            <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101">
+                            <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+                            <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
+                             
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Oct-2022 - Current</span><br>Full Stack Web-development(Full time batch) at Masai School</li>
+                            <li><span>2017-2020</span><br>BSc. from Maharishi college(Utkal University affiliated)</li>
+                            <li><span>2007-2017</span><br>Schooling and high-schooling at K.V.no.1 BBSR</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
