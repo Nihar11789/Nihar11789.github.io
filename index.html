@@ -5,77 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>portfolio.io</title>
+    <title>Nihar's_portfolio</title>
 </head>
-
 <body>
-    <div id="header">
-        <div class="container">
-            <nav id="nav-menu">
-                <img id="logo" src="./images/Nihar.png" alt="nihar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Content</a></li>
-                    <li><a href="#">Resume</a></li>
-                    
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Node-backend Developer</p>
-                <h2>Hi, I'm <br> <span>Nihar Ranjan Patra</span></h2>
-            </div>
+     <nav  id="nav-menu">
+        <div>
+           <h2>Nihar.</h2>
         </div>
-    </div>
-   <!-- ---------------about------------------------------------------------  -->
-    <div id="about">
-        <div class="about secion">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="./images/PHOTO.jpg" alt="">
+        <div class="nav-list">
+           <li>Home</li>
+           <li>About</li>
+           <li>Skills</li>
+           <li>Project</li>
+           <li>Contact</li>
+           <li>Resume</li> 
+        </div>
+     </nav>
+
+     <section class="container">
+          <div  id="home">
+            <div class="profile-details">
+                 <p>Hi! I am <span class="name">Nihar Ranjan Patra</span> </p>
+                 <p>A Backend Node.js Developer</p>
+                 <p>"Passionate about coding and Problem Solving..."</p>
+                 <p>4+
+                    Completed Projects
+                    300+
+                    Solved DSA Problems</p>
+            </div>
+       
+               <img class="home-img" src="./Assets/PHOTO.jpg" alt="nihar_profile"> 
+          
+          </div>
+
+          <div id="about" class="about section">
+            <h2 class="title">About</h2>
+            <div class="underline">
+                
+            </div>
+            <p class="about-text">
+                Hey! This is Nihar Ranjan Patra and I'm a Back-end Focused Full Stack Web Developer building the Backend of Websites and Web Applications using NodeJS, Express and MongoDB that leads to success of the overall product. Check out some of my work in the Projects section.</p>
+
+  <p class="about-text">I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+            </p>
+
+            <div id="soft-skills">
+                  <div class="ss-div">
+                  <img class="ss-img" src="./Assets/collaboration.png" alt="">
+                  <p class="ss-title">Collaboration</p>
+                  </div>
+                  <div class="ss-div">
+                 <img class="ss-img" src="./Assets/emotional intelligence.png" alt="">
+                 <p class="ss-title">Emotional Intelligence</p>
                 </div>
-                <div class="about-col-2">
-                    <h2 class="sub-title">About Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure mollitia maxime! Fugit distinctio quae sit quod magnam, doloremque, excepturi voluptatum laborum eaque doloribus nobis voluptates libero rem! Ullam, odit.</p>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('eduction')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-                            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-                            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"><br>
-                            <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7">
-                            <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
-                            <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"><br>
-                            <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white">
-                            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
-                            <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
-                            <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"><br>
-                            <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101">
-                            <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-                            <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
-                             
-                            
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>Oct-2022 - Current</span><br>Full Stack Web-development(Full time batch) at Masai School</li>
-                            <li><span>2017-2020</span><br>BSc. from Maharishi college(Utkal University affiliated)</li>
-                            <li><span>2007-2017</span><br>Schooling and high-schooling at K.V.no.1 BBSR</li>
-
-                        </ul>
-                    </div>
+                <div class="ss-div">
+                 <img class="ss-img" src="./Assets/communication.png" alt="">
+                 <p class="ss-title"> Communication </p>
+                </div>
+                <div class="ss-div">
+                 <img class="ss-img" src="./Assets/time management.png" alt="">
+                 <p class="ss-title">Time management</p>
                 </div>
             </div>
-        </div>
-    </div>
+
+          </div>
+
+          <h2 class="title">Skills</h2>
+          <div class="underline">
+          </div>
+
+          <div id="skills">
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/html5_icon.svg" alt="">
+                <p class="skill-card-name">HTML</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/css3_icon.svg" alt="">
+                <p class="skill-card-name">CSS</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/javascript_icon.svg" alt="">
+                <p class="skill-card-name">JavaScript</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/express-js_icon.svg" alt="">
+                <p class="skill-card-name">Express</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/MongoDB_icon.svg" alt="">
+                <p class="skill-card-name">MongoDB</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/socketio_icon.svg" alt="">
+                <p class="skill-card-name">Socket.io</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/node-js_icon.svg" alt="">
+                <p class="skill-card-name">Node.js</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/aws.svg" alt="">
+                <p class="skill-card-name">AWS</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/redis_icon.svg" alt="">
+                <p class="skill-card-name">Redis</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/sql-database-generic.svg" alt="">
+                <p class="skill-card-name">SQL</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/Typescript_logo_2020.svg" alt="">
+                <p class="skill-card-name">Typescript</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/images.png" alt="">
+                <p class="skill-card-name">JWT</p>
+             </div>
+          </div>
+     </section>
 </body>
 </html>
+<script src="index.js"></script>
