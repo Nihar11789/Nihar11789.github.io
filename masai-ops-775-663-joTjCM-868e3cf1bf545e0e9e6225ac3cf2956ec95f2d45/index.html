@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47e2972ebe.js" crossorigin="anonymous"></script>
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nihar's_portfolio</title>
+</head>
+<body>
+     <nav  id="nav-menu">
+        <div>
+           <h2>Nihar.</h2>
+        </div>
+        <div class="nav-list">
+           <li>Home</li>
+           <li>About</li>
+           <li>Skills</li>
+           <li>Project</li>
+           <li>Contact</li>
+           <button id="resume-button-1" onclick="downloadResume()">
+            <a target="_blank" href="./assets/Nihar_Ranjan Patra_Resume.pdf" download="Nihar_Ranjan_Patra_Resume.pdf"
+                   class="resume" id="resume-link-1">
+                   RESUME
+            </a>
+     </button>
+        </div>
+
+        <div id="ham-menu" onclick="openNav()">
+         <span class="material-symbols-outlined">
+                menu
+         </span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+
+         <a href="#home" class="nav home" onclick="closeNav()"><span class="material-symbols-outlined">
+                </span>HOME</a>
+         <hr>
+         <a href="#about" class="nav about" onclick="closeNav()"><span class="material-symbols-outlined">
+
+                </span>ABOUT</a>
+         <hr>
+         <a href="#skills" class="nav skills" onclick="closeNav()"><span class="material-symbols-outlined">
+                       
+                </span>SKILLS</a>
+         <hr>
+         <a href="#projects" class="nav projects" onclick="closeNav()"><span >
+                       
+                </span>PROJECTS</a>
+         <hr>
+         <a href="#contact" class="nav contact" onclick="closeNav()"><span
+                      >
+                       
+                </span>CONTACT</a>
+         <hr>
+        
+            <a  onclick="downloadResume()" target="_blank" href="./assets/Nihar_Ranjan Patra_Resume.pdf" download="Nihar_Ranjan_Patra_Resume.pdf"
+                  >
+                  <span>RESUME</span> 
+            </a>
+   
+  </div>
+     </nav>
+
+     <section class="container">
+          <div  id="home">
+            <div class="profile-details">
+                 <p>Hi! I am <span class="name">Nihar Ranjan Patra</span> </p>
+                 <p>A Backend Node.js Developer</p>
+                 <p>"Passionate about coding and Problem Solving..."</p>
+                 <p>4+
+                    Completed Projects
+                    300+
+                    Solved DSA Problems</p>
+
+                    <button id="resume-button-2" onclick="downloadResume()">
+                     <a target="_blank" href="./assets/Nihar_Ranjan Patra_Resume.pdf" download="Nihar_Ranjan_Patra_Resume.pdf"
+                            class="resume" id="resume-link-1">
+                            RESUME
+                     </a>
+              </button>
+            </div>
+       
+               <img class="home-img" src="./Assets/PHOTO.jpg" alt="nihar_profile"> 
+          
+          </div>
+
+          <div id="about" class="about section">
+            <h2 class="title">About</h2>
+            <div class="underline">
+                
+            </div>
+            <p class="about-text">
+                Hey! This is Nihar Ranjan Patra and I'm a Back-end Focused Full Stack Web Developer building the Backend of Websites and Web Applications using NodeJS, Express and MongoDB that leads to success of the overall product. Check out some of my work in the Projects section.</p>
+
+  <p class="about-text">I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+            </p>
+
+            <div id="soft-skills">
+                  <div class="ss-div">
+                  <img class="ss-img" src="./Assets/collaboration.png" alt="">
+                  <p class="ss-title">Collaboration</p>
+                  </div>
+                  <div class="ss-div">
+                 <img class="ss-img" src="./Assets/emotional intelligence.png" alt="">
+                 <p class="ss-title">Emotional Intelligence</p>
+                </div>
+                <div class="ss-div">
+                 <img class="ss-img" src="./Assets/communication.png" alt="">
+                 <p class="ss-title"> Communication </p>
+                </div>
+                <div class="ss-div">
+                 <img class="ss-img" src="./Assets/time management.png" alt="">
+                 <p class="ss-title">Time management</p>
+                </div>
+            </div>
+
+          </div>
+
+          
+
+          <div id="skills">
+            <h2 class="title">Skills</h2>
+          <div class="underline">
+          </div>
+
+          <div id="skill-container">
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/html5_icon.svg" alt="">
+                <p class="skill-card-name">HTML</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/css3_icon.svg" alt="">
+                <p class="skill-card-name">CSS</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/javascript_icon.svg" alt="">
+                <p class="skill-card-name">JavaScript</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/express-js_icon.svg" alt="">
+                <p class="skill-card-name">Express</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/MongoDB_icon.svg" alt="">
+                <p class="skill-card-name">MongoDB</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/socketio_icon.svg" alt="">
+                <p class="skill-card-name">Socket.io</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/node-js_icon.svg" alt="">
+                <p class="skill-card-name">Node.js</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/aws.svg" alt="">
+                <p class="skill-card-name">AWS</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/redis_icon.svg" alt="">
+                <p class="skill-card-name">Redis</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/sql-database-generic.svg" alt="">
+                <p class="skill-card-name">SQL</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/Typescript_logo_2020.svg" alt="">
+                <p class="skill-card-name">Typescript</p>
+             </div>
+
+             <div class="skill-card">
+                <img class="skills-card-img" src="./Assets/images.png" alt="">
+                <p class="skill-card-name">JWT</p>
+             </div>
+          </div>
+         </div>
+
+
+          
+          <div id="projects">
+            <h2 class="title">Project</h2>
+            <div class="underline">
+            </div>
+            <div id="project-container">
+              <div class="project-card">
+               <img class="project-img" src="./Assets/voyage.png" alt="booking.com">
+               <h2 class="project-title">Voyage.com</h2>
+               <p class="project-description">voyage.com(booking.com clone) is a booking website for hotels, flights, taxis</p>
+               <p class="project-tech-stack">Node.js, Express.js, Javascript, HTML and CSS</p>
+                <div id="project-button">
+                  <button class="project-github-link">Code</button>
+                  <button class="project-deployed-link">Live</button>
+                </div>
+              </div>
+
+              <div class="project-card">
+               <img class="project-img" src="./Assets/tic-tac.png" alt="tictactoe">
+               <h2 class="project-title">Tic-tac-toe</h2>
+               <p class="project-description">Tic-tac-toe is simple game to play in your free time </p>
+               <p class="project-tech-stack">Node.js, mongoose, mongoDB,Express.js, Javascript, HTML and CSS</p>
+                <div id="project-button">
+                  <button class="project-github-link">Code</button>
+                  <button class="project-deployed-link">Live</button>
+                </div>
+              </div>
+
+              <div class="project-card">
+               <img class="project-img" src="./Assets/netmeds.png" alt="booking.com">
+               <h2 class="project-title">Netmeds</h2>
+               <p class="project-description">Netmeds.com a site to buy medicines and other medical applications</p>
+               <p class="project-tech-stack">Javascript, HTML and CSS</p>
+                <div id="project-button">
+                  <button class="project-github-link">Code</button>
+                  <button class="project-deployed-link">Live</button>
+                </div>
+              </div>
+          </div>
+         </div>
+          
+
+          
+          <div id="github">
+            <h2 class="title">Github Stats</h2>
+            <div class="underline">
+            </div>
+
+            <div id="github-container">
+               <div>
+              <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Nihar11789&count_private=true&theme=light" alt="">
+             </div>
+             <div>
+              <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nihar11789&layout=compact&theme=light" alt=""> 
+            </div>
+            <div>
+              <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Nihar11789&theme=light&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D" alt="">
+            </div>
+          </div>
+          <div class="calendar" class="react-activity-calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+      </div>
+
+        <div id="contact">
+         <h2 class="title">Contacts</h2>
+        <div class="underline">
+        </div>
+        
+         <div id="contact-container">
+            <div id="contact-details">
+               <p><i class="fa-brands fa-github"></i> Github </p>
+               <p><i class="fa-solid fa-envelope"></i> Email </p>
+               <p><i class="fa-solid fa-phone"></i> Phone</p>
+            </div>
+            <form id="contact-form" action="">
+               <input placeholder="Enter your name" type="text">
+               <input placeholder="Enter your email" type="email">
+               <input placeholder="Enter the subject" type="text">
+               <textarea name="" id="" cols="30" rows="10">
+   
+               </textarea>
+
+               <button>Send</button>
+
+            </form>
+         </div>
+      </div>
+      
+  
+ <!-- footer section start -->
+ 
+ </div>
+
+     </section>
+     <footer class="footer">
+      <p>© 2023 Developed by Nihar</p>
+    </footer>
+</body>
+</html>
+<script>
+
+   // or enable responsive functionality:
+   GitHubCalendar(".calendar", "Nihar11789", { responsive: true });
+</script>
+<script src="index.js"></script>
