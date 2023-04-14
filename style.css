@@ -46,6 +46,10 @@
     text-decoration: none;
     color: white;
 }
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
 #resume-button-2{
     padding: 13px 30px;
     background-color: #ff6998;
@@ -83,7 +87,7 @@
 
 }
 
-.name{
+#user-detail-name{
     font-size: 50px;
 }
 
@@ -305,7 +309,7 @@
         color: #667C89;
         /* margin-left: 50px; */
     }
-    .profile-details{
+    #user-detail-intro{
         width: 100%;
       }
     .home-img{
