@@ -145,10 +145,10 @@
     margin-top: 30px;
 
 }
-.skill-card{
+.skills-card{
     padding: 10px;
 }
-.skill-card:hover{
+.skills-card:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 30px;
     background: rgb(121,9,107);

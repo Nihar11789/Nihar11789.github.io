@@ -75,7 +75,7 @@
 
      <section class="container">
           <div  id="home">
-            <div id="user-detail-intro">
+            <div >
                  <p>Hi! I am <span id="user-detail-name">Nihar Ranjan Patra</span> </p>
                  <p>A Backend Node.js Developer</p>
                  <p>"Passionate about coding and Problem Solving..."</p>
@@ -101,10 +101,10 @@
             <div class="underline">
                 
             </div>
-            <p class="about-text">
-                Hey! This is Nihar Ranjan Patra and I'm a Back-end Focused Full Stack Web Developer building the Backend of Websites and Web Applications using NodeJS, Express and MongoDB that leads to success of the overall product. Check out some of my work in the Projects section.</p>
+            <p id="user-detail-intro">
+                Hey! This is Nihar Ranjan Patra and I'm a Back-end Focused Full Stack Web Developer building the Backend of Websites and Web Applications using NodeJS, Express and MongoDB that leads to success of the overall product. Check out some of my work in the Projects section.
 
-  <p class="about-text">I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+  I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
             </p>
 
             <div id="soft-skills">
@@ -136,62 +136,62 @@
           </div>
 
           <div id="skill-container">
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/html5_icon.svg" alt="">
                 <p class="skill-card-name">HTML</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/css3_icon.svg" alt="">
                 <p class="skill-card-name">CSS</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/javascript_icon.svg" alt="">
                 <p class="skill-card-name">JavaScript</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/express-js_icon.svg" alt="">
                 <p class="skill-card-name">Express</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/MongoDB_icon.svg" alt="">
                 <p class="skill-card-name">MongoDB</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/socketio_icon.svg" alt="">
                 <p class="skill-card-name">Socket.io</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/node-js_icon.svg" alt="">
                 <p class="skill-card-name">Node.js</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/aws.svg" alt="">
                 <p class="skill-card-name">AWS</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/redis_icon.svg" alt="">
                 <p class="skill-card-name">Redis</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/sql-database-generic.svg" alt="">
                 <p class="skill-card-name">SQL</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/Typescript_logo_2020.svg" alt="">
                 <p class="skill-card-name">Typescript</p>
              </div>
 
-             <div class="skill-card">
+             <div class="skills-card">
                 <img class="skills-card-img" src="./Assets/images.png" alt="">
                 <p class="skill-card-name">JWT</p>
              </div>
@@ -269,7 +269,7 @@
               <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Nihar11789&theme=light&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D" alt="">
             </div>
           </div>
-          <div class="calendar" class="react-activity-calendar">
+          <div class="react-activity-calendar">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
@@ -282,9 +282,10 @@
         
          <div id="contact-container">
             <div id="contact-details">
-               <p><i class="fa-brands fa-github"></i> Github </p>
-               <p><i class="fa-solid fa-envelope"></i> Email </p>
-               <p><i class="fa-solid fa-phone"></i> Phone</p>
+               <a id="contact-github" href="https://github.com/Nihar11789"><i class="fa-brands fa-github"></i> Github </a>
+               <a id="contact-linkedin" href="https://www.linkedin.com/in/nihar-ranjan-patra-48a50a257/"><i class="fa-brands fa-linkedin">Linkedin</i></a>
+               <a  id="contact-email" href="mailto:piperace11789@gmail.com"><i class="fa-solid fa-envelope"></i> Email </a>
+               <a id="contact-phone" href="tel:8144622257"><i class="fa-solid fa-phone"></i> Phone</a>
             </div>
             <form id="contact-form" action="">
                <input placeholder="Enter your name" type="text">
@@ -314,6 +315,6 @@
 <script>
 
    // or enable responsive functionality:
-   GitHubCalendar(".calendar", "Nihar11789", { responsive: true });
+   GitHubCalendar(".react-activity-calendar", "Nihar11789", { responsive: true });
 </script>
 <script src="index.js"></script>
