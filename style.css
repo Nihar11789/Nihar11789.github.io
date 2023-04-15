@@ -206,7 +206,10 @@
 
 
 #contact-details {
-    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 30%;
+    
 }
 
 #contact-details p{
@@ -214,7 +217,7 @@
 }
 
 #contact-form{
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -222,6 +225,52 @@
     width: 100%;
     padding: 10px;
 }
+#contact-github{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    
+}
+#contact-github:hover{
+    background-color: #d212eb;
+}
+#contact-linkedin{
+    text-decoration: none;
+    color:rgb(14, 88, 191);
+    font-size: small;
+    /* background-color: ; */
+    padding: 5px 15px;
+}
+#contact-linkedin:hover{
+    background-color: #d212eb;
+}
+#contact-email{
+    text-decoration: none;
+    color: rgb(187, 42, 42);
+    /* background-color: ; */
+    padding: 5px 15px;
+}
+#contact-email:hover{
+    background-color: #d212eb;
+}
+#contact-phone{
+    text-decoration: none;
+    color: rgb(27, 203, 57);
+    /* background-color: ; */
+    padding: 5px 15px;
+}
+#contact-phone:hover{
+    background-color: #d212eb;
+}
+#contact-form-button{
+    cursor: pointer;
+    padding: 8px 30px;
+    color: white;
+    background-color: black;
+}
+
 .footer{
     background-color: black;
     color: white;
@@ -231,8 +280,10 @@
     padding: 0.0001px;
     position: absolute;
     margin-top: 30px;
-    /* bottom: 0; */
+    /* 
+    bottom: 0; */
 }
+
 
 @media screen and (min-width:570px)and(max-width:768px) {
     #nav-menu>:nth-child(2){
@@ -435,4 +486,6 @@
     #contact-form{
         width: 100%;
     }
+    
+    
 }
