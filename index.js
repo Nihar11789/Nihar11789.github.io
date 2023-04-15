@@ -20,5 +20,5 @@ function closeNav() {
 }
 
 const downloadResume = () => {
-    window.open("./assets/Nihar_Ranjan_Patra_Resume.pdf",'_blank');
+    window.open("./Assets/Nihar_Ranjan_Patra_Resume.pdf",'_blank');
 }
